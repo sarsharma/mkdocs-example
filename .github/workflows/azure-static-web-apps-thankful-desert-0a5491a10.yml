@@ -20,7 +20,6 @@ jobs:
           submodules: true
       - name: Build Mkdocs
         run: |
-          pip install -r requirements.txt
           pip install mkdocs
           mkdocs build
       - name: Deploy
